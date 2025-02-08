@@ -173,8 +173,7 @@ def getBoxAtPixel(x, y):
             boxRect = pygame.Rect(left, top, BOXSIZE, BOXSIZE)
             if boxRect.collidepoint(x, y):
                 return (boxx, boxy)
-        return(None, None)
-    
+     return(None, None) #indentation fixed    
     
 def drawIcon(shape, color, boxx, boxy):
     quater = int(BOXSIZE * 0.25) #syntactic sugar
